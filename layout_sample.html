@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sample Layout</title>
+        <style>
+
+            body {
+                display: flex;
+                flex-direction: row;
+            }
+            .headerContainer {
+                align-content: center;
+                background: tomato;
+                font-weight: bold;
+                padding: 10px;
+            }
+            .mainContentItem {
+                text-align: left;
+            }
+            article {
+                padding: 10px;
+                background: aqua;
+            }
+            .footerContainer {
+                align-content: center;
+                background: lightgreen;
+                font-weight: bold;
+                padding: 10px;
+            }
+            .mainContainer {
+                flex: 3 ;
+            }
+            .navigationBar {
+                flex: 1 ;
+                text-align: center;
+                background: gold;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navigationBar">
+            <h2>Navigation Bar</h2>
+        </nav>
+        <div class="mainContainer">
+            <header class="headerContainer"><h1>HEADER -Sample Flexbox</h1></header>
+            <section class="mainContentItem">
+                <article>
+                    <h2>First article</h2>
+                    <p>There is no tool for development more effective than the empowerment of women.</p>
+                    <h2>Second article</h2>
+                    <p>Women, like men, should try to do the impossible. And when they fail, their failure should be a challenge to others</p>
+                    <h2>Third article</h2>
+                    <p>Woman must not accept; she must challenge. She must not be awed by that which has been built up around her; she must reverence that woman in her which struggles for expression. </p>
+                </article>
+            </section>
+            <footer class="footerContainer"><h1>Footer</h1></footer>
+        </div>
+    </body>
+</html>
